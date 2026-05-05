@@ -6,13 +6,13 @@
 
 1. **Cấp quyền thực thi cho script:**
    ```bash
-   chmod +x AdminHack.sh
+   chmod +x Admin.sh
    chmod +x src/ReloadInstall.sh
    ```
 
 2. **Chạy tool chính:**
    ```bash
-   bash AdminHack.sh
+   bash Admin.sh
    ```
 
 3. **Cài đặt lại tool (Reload):**
@@ -32,8 +32,8 @@
 ## Hướng dẫn sử dụng
 
 1. **Chạy script:**
-   - Mở terminal tại thư mục chứa file `AdminHack.sh`.
-   - Chạy lệnh: `bash AdminHack.sh`
+   - Mở terminal tại thư mục chứa file `Admin.sh`.
+   - Chạy lệnh: `bash Admin.sh`
 
 2. **Nhập thông tin:**
    - Nhập tên website cần kiểm tra (ví dụ: `example.com`).
