@@ -3,25 +3,18 @@
 
 
 ## Các lệnh để chạy hệ thống
-
-1. **Cấp quyền thực thi cho script:**
-   ```bash
-   chmod +x Admin.sh
-   chmod +x src/ReloadInstall.sh
-   ```
-
-2. **Chạy tool chính:**
+1. **Chạy tool chính:**
    ```bash
    bash Admin.sh
    ```
 
-3. **Cài đặt lại tool (Reload):**
+2. **Cài đặt lại tool (Reload):**
    ```bash
    cd src
    bash ReloadInstall.sh
    ```
 
-4. **Cài đặt các gói cần thiết (nếu chưa có):**
+3. **Cài đặt các gói cần thiết (nếu chưa có):**
    ```bash
    pkg install curl wget bash
    pkg install ncurses-util toilet
